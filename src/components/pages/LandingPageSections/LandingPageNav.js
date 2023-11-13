@@ -11,7 +11,6 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { useNavigate } from 'react-router-dom';
-import ModeToggle from '../../common/ModeToggle';
 
 const pages = [
   {
@@ -119,7 +118,7 @@ function LandingPageNav() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <ModeToggle/>
+            {/* <ModeToggle/> */}
           </Box>
 
         </Toolbar>
