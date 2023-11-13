@@ -1,0 +1,44 @@
+.form-container {
+    max-width: 95%;
+    background:#fff;
+    margin:20px auto;
+    padding: 20px;
+    height: 90vh;
+    overflow-y: scroll; 
+}
+
+.text-label{
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px;
+    text-transform: capitalize;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.skills-container div{
+    display:flex;
+    align-items: flex;
+    gap:10px;
+    font-weight: 700;
+    border-radius: 10px;
+    border:1px solid black;
+    margin-top:5px;
+    padding:5px;
+    font-size: 12px;
+}
+
+.pbh-container{
+    background-color: blueviolet;
+    font-size:15px;
+    padding:  10px 25px;;
+    border: none;
+    border-radius: 8px;
+    float: right;
+    cursor: pointer;
+}

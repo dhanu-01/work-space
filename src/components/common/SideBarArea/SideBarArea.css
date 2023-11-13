@@ -1,0 +1,24 @@
+.sidebarArea-container{
+    min-height: calc(100vh - 70px);
+    background: #ebebeb;
+    overflow-y: scroll;
+    border-radius: 10px;
+    padding:15px;
+    position: sticky;
+    top:75px;
+}
+
+.selectedCard{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 10px;
+    border-left: 4px solid #7331D2;
+    border-right: 4px solid #7331D2;
+}
+
+.card{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 10px;
+}

@@ -1,0 +1,66 @@
+.feild-label{
+    font-weight: 700;
+    display: flex;
+    margin:10px
+}
+
+.onboarding-container{
+    max-width: 90%;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgb(0 0 0 /15%);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;  
+}
+
+.btn-container{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    margin:10px;
+    /* padding:10px; */
+}
+
+.btn-container button{
+    background: #7f31d2;
+    border-radius: 8px;
+    color:white;
+    font-size: clamp(15px,1.5vw,15px);
+    text-transform: none;
+    margin:10px;
+}
+
+.logo-img{
+    background-size : cover;
+    background-position : center;
+    width : 100px;
+    height: 100px
+}
+
+.logo-img:hover{
+    background-size: 120%;
+    transition: background-size 1s ease;
+}
+
+.btn-container button:hover{
+    background: #163485;
+    color:white;
+}
+
+
+
+
+@media  screen and (max-width: 768px) {
+    .btn-container{
+        position: sticky;
+        bottom:0px;
+        background:#fff;
+        z-index:2;
+        padding:10px 0px;
+        margin:unset;
+    }
+
+    .btn-container button{
+        width: 100%;
+    }
+}
