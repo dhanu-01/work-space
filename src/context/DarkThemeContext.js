@@ -1,25 +1,25 @@
-import React, { useReducer, createContext, useEffect } from "react";
+// import React, { useReducer, createContext, useEffect } from "react";
 
-export const darkContext = createContext();
+// export const darkContext = createContext();
 
-const initialState = {
+// const initialState = {
 
-};
+// };
 
-const reducer = (state = initialState, action) => {
-    
-};
+// const reducer = (state = initialState, action) => {
 
-export const DarkThemeContext = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, initialState);
+// };
 
-  return (
-    <darkContext.Provider value={[state, dispatch ]}>
-      {children}
-    </darkContext.Provider>
-  );
-}
+// export const DarkThemeContext = ({ children }) => {
+//   const [state, dispatch] = useReducer(reducer, initialState);
 
-//first define the dark theme color
-//background colors
-//
+//   return (
+//     <darkContext.Provider value={[state, dispatch ]}>
+//       {children}
+//     </darkContext.Provider>
+//   );
+// }
+
+// //first define the dark theme color
+// //background colors
+// //
